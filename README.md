@@ -1,5 +1,5 @@
 # PersonalSite
 
-[View site](https://github.com/PulokasDD/PersonalSite/settings)
+[View site](https://pulokasdd.github.io/PersonalSite/)
 
 
