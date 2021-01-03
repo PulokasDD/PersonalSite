@@ -53,9 +53,16 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4 {
+  color: aliceblue;
+  font-family: 'Chilanka', cursive;
+  margin: 25px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 30px;
   color: aliceblue;
   font-family: 'Chilanka', cursive;
   margin: 25px;

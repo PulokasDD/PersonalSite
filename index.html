@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
   <title>Pulokas Dainyus</title>
-
 </head>
 
 <body>
@@ -26,24 +25,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#price">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
           </li>
         </ul>
-        <span class="navbar-text">
-          denpulokas@gmail.com
+        <span class="nav-item">
+          <a class="nav-link" href="mailto:denpulokas@gmail.com">Send me a message</a>
         </span>
       </div>
     </nav>
@@ -76,8 +72,8 @@
   <!-- about -->
 
   <section id="about">
-
-    <h2>About me</h2>
+    <a name="about"></a>
+    <h2 name="about">About me</h2>
 
     <div class="main_cont">
       <div>
@@ -91,7 +87,7 @@
           debitis? Perferendis incidunt debitis nobis minus.</p>
       </div>
       <div>
-        <img src="my photo.png" alt="">
+        <img src="my photo.png" alt="me">
       </div>
       <div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum delectus aspernatur iure? Earum, eligendi.
@@ -109,25 +105,23 @@
   </section>
 
   <!-- portfolio -->
-
+  <a name="portfolio"></a>
   <h2>Portfolio</h2>
 
   <div class="gallery">
 
-    <div id="img1"><img src="photo/csscv.png" alt=""></div>
-    <div id="img2"><img src="photo/dicee.png" alt=""></div>
-    <div id="img3"><img src="photo/drumkit.png" alt=""></div>
-    <div id="img4"><img src="photo/lc.png" alt=""></div>
-    <div id="img5"><img src="photo/necr.png" alt=""></div>
-    <div id="img6"><img src="photo/tindog.png" alt=""></div>
+    <div id="img4"><a href="https://github.com/PulokasDD/MALINKA" target="_blank" rel="noopener noreferrer"><img src="photo/malinka.png" alt="malinka"></a></div>
+    <div id="img5"><a href="https://github.com/PulokasDD/metallotrans" target="_blank" rel="noopener noreferrer"><img src="photo/metallotrans.png" alt="metallotrans"></a></div>
+    <div id="img6"><a href="https://github.com/PulokasDD/tindog" target="_blank" rel="noopener noreferrer"><img src="photo/tindog.png" alt="tindog"></a></div>
+    <div id="img1"><a href="https://github.com/PulokasDD/csscv" target="_blank" rel="noopener noreferrer"><img src="photo/csscv.png" alt="csscv"></a></div>
+    <div id="img2"><a href="https://github.com/PulokasDD/Dicee" target="_blank" rel="noopener noreferrer"><img src="photo/dicee.png" alt="dicee"></a></div>
+    <div id="img3"><a href="https://github.com/PulokasDD/Drum" target="_blank" rel="noopener noreferrer"><img src="photo/drumkit.png" alt="drumkit"></a></div>
 
   </div>
 
-
   <!-- Pricing -->
-
+  <a name="price"></a>
   <section id="pricing">
-
     <h2>Price</h2>
 
     <h4>
@@ -143,7 +137,7 @@
           <div class="card-body">
             <h2 class="price_header">150$</h2>
             <p>Good quality</p>
-            <p>Adaptive</>
+            <p>Adaptive</p>
               <p>I'll do it on time</p>
               <button type="button" class="btn btn-dark btn-lg btn-block">
                 Choose
@@ -189,7 +183,7 @@
   </section>
 
   <!-- contacts -->
-
+<a name="contacts"></a>
   <section id="contacts">
     <h2>Contact Me</h2>
     <div class="container">
@@ -214,7 +208,6 @@
               <option value="canada">Canada</option>
               <option value="usa">USA</option>
               <option value="china">China</option>
-              <option value="europe">Europe</option>
             </select>
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
@@ -233,7 +226,7 @@
       <a href="#"><img src="photo/icons8-вконтакте-50.png" alt=""></a>
       <a href="#"><img src="photo/icons8-линкедин-50.png" alt=""></a>
 
-      <p>© Copyright 2020</p>
+      <p>© Copyright 2021</p>
     </div>
 
   </footer>
